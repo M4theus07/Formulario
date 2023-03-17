@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Formulario</title>
+</head>
+<body>
+    <div id ="formulario">
+    <h1>CADASTRO</h1>
+    <form>
+        <label for="name">nome</label>
+        <input type="text" id="name" placeholder="Nome">
+
+        <label for="colorpicker">cor favorita</label>
+        <input type="color" id="colorpicker">
+
+        <label for="nascimento">Data de nascimento</label>
+        <input type="date" id="nascimento">
+
+        <label for="hrnascimento">Horario do nascimento</label>
+        <input type="time" id="hrnascimento"> 
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="aaa@bbb.com">
+        <label for="confemail">confirme o e-mail</label>
+        <input type="email" id="confemail" palceholder="aaa@bbb.com">
+
+        <label for="doc">Faça upload do documento</label>
+        <input type="file" id="doc" accept=".pdf">
+
+        <input type="hidden" id="test" value="test">
+
+        <label for="image">Faça upload da foto</label>
+        <input type="image">
+
+        <label for="telefone">Telefone</label>
+        <input type="number" id="telefone" placeholder="(11) 99999-9999">
+
+        <label for="pass">Senha</label>
+        <input type="password" id="pass">
+        <label for="confpass">Confirme a senha</label>
+        <input type="password" id="confpass">
+
+        <label for="sexo">sexo</label>
+
+        <input type="radio" id="masc" name="sexo" value="m">
+        <label for="masc">Masculino</label>
+
+        <input type="radio" id="fem" name="sexo" value="f">
+        <label for="masc">Masculino</label>
+
+        <input type="radio" id="ni" name="sexo" value="n">
+        <label for="ni">Prefere não declarar</label>
+
+        <label for="satisfação">Satisfação</label>
+        <input type="range" id="satisfação">
+
+        <input type="checkbox" id="agree" value="y">
+        <label for="agree">Concordo com os termos</label>
+        <input type="checkbox" id="agreep" value="y">
+        <label for="agree">Concordo com as politícas</label>
+
+        <input type="reset" value="limpar">
+        <button>Enviar</button>
+            </form>
+        </div>
+</body>
+</html>
